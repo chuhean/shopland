@@ -2,3 +2,14 @@
 .body {
   padding-top: 50px;
 }
+
+.homeContainer {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.itemImage {
+  width: 15rem;
+}
+
+

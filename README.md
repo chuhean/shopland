@@ -1,5 +1,6 @@
 1. Design website
 2. Set up component views
+    - home, category, search, product, buy page
 3. Set up RESTful routes
 4. Set up models and authetication
 5. Optimization, cleaning up, write comment

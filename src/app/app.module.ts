@@ -5,13 +5,17 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { HomeItemComponent } from './home-item/home-item.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    CarouselComponent
+    CarouselComponent,
+    HomeItemComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
