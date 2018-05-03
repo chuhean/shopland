@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Image } from './../image.model';
 
 @Component({
   selector: 'app-home-item',
@@ -6,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-item.component.css']
 })
 export class HomeItemComponent implements OnInit {
+  @Input() image: Image;
 
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit() {
   }

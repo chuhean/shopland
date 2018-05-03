@@ -1,6 +1,6 @@
 1. Design website
 2. Set up component views
-    - home, category, search, product, buy page
+    - home, category, search, product, buy page, store page
 3. Set up RESTful routes
 4. Set up models and authetication
 5. Optimization, cleaning up, write comment
@@ -8,7 +8,7 @@
 7. Documentation & maintenance 
 
 *git add, commit and push to github
-*HTML, CSS, JS, NodeJS, MongoDB, ExpressJS, Mongoose, Angular
+*HTML, CSS, JS, NodeJS, MongoDB, ExpressJS, Mongoose, Angular, bem, gulp 
 
 # Shopland
 

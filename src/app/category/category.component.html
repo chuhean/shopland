@@ -1,0 +1,36 @@
+<!--Bootstrap Container-->
+<div class="container">
+    
+    <h2 class="card-title font-bold pb-2 h2-responsive categoryTitle"><strong>All Your Electronics Needs At One Place</strong></h2>
+    
+    <!--Jumbotron Image-->
+    <app-jumbotron></app-jumbotron>
+    
+    <!--List Electronics Categories-->
+    
+    <!--First Row-->
+    <div class="row categoryRow">
+        <app-category-item
+            *ngFor = "let image of imageFirstRow"
+            [image] = image>
+        </app-category-item>
+    </div>
+    
+    <!--Second Row-->
+    <div class="row categoryRow">
+        <app-category-item
+            *ngFor = "let image of imageSecondRow"
+            [image] = image>
+        </app-category-item>
+    </div>
+    
+    <!--Third Row-->
+    <div class="row categoryRow">
+        <app-category-item
+            *ngFor = "let image of imageThirdRow"
+            [image] = image>
+        </app-category-item>
+    </div>
+    
+    
+</div>

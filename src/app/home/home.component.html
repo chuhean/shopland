@@ -6,10 +6,10 @@
     <p class="h2-responsive">Popular items with free shipping</p>
     <hr>
     <div class="row">
-        <app-home-item></app-home-item>
-        <app-home-item></app-home-item>
-        <app-home-item></app-home-item>
-        <app-home-item></app-home-item>
+        <app-home-item 
+            *ngFor = "let image of imageFirstRow"
+            [image] = image>
+        </app-home-item>
     </div>
     
     <br>
@@ -17,10 +17,10 @@
     <p class="h2-responsive">Awesome gift ideas for $10 and less</p>
     <hr>
     <div class="row">
-        <app-home-item></app-home-item>
-        <app-home-item></app-home-item>
-        <app-home-item></app-home-item>
-        <app-home-item></app-home-item>
+        <app-home-item 
+            *ngFor = "let image of imageSecondRow"
+            [image] = image>
+        </app-home-item>
     </div>
     
     <br>
@@ -28,10 +28,10 @@
     <p class="h2-responsive">Books best sellers</p>
     <hr>
     <div class="row">
-        <app-home-item></app-home-item>
-        <app-home-item></app-home-item>
-        <app-home-item></app-home-item>
-        <app-home-item></app-home-item>
+        <app-home-item
+            *ngFor = "let image of imageThirdRow"
+            [image] = image>
+        </app-home-item>
     </div>
     
     <br>
@@ -39,10 +39,10 @@
     <p class="h2-responsive">Low-price fashion with free shipping</p>
     <hr>
     <div class="row">
-        <app-home-item></app-home-item>
-        <app-home-item></app-home-item>
-        <app-home-item></app-home-item>
-        <app-home-item></app-home-item>
+        <app-home-item 
+            *ngFor = "let image of imageFourthRow"
+            [image] = image>
+        </app-home-item>
     </div>
     
 </div>

@@ -1,5 +1,23 @@
 .carousel__image {
     display: block;
     max-width: 100%;
-    height: 300px !important;
+    height: 150px !important;
+}
+
+@media (min-width: 768px) { 
+    .carousel__image {
+        height: 220px !important;
+    }
+}
+
+@media (min-width: 992px) { 
+    .carousel__image {
+        height: 270px !important;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .carousel__image {
+        height: 300px !important;
+    }
 }
