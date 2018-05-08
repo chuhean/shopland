@@ -1,7 +1,7 @@
 <!--Bootstrap Container-->
 <div class="container">
     
-    <h2 class="card-title font-bold pb-2 h2-responsive categoryTitle"><strong>All Your Electronics Needs At One Place</strong></h2>
+    <h2 class="card-title font-bold pb-2 h2-responsive component"><strong>All Your Electronics Needs At One Place</strong></h2>
     
     <!--Jumbotron Image-->
     <app-jumbotron></app-jumbotron>
@@ -9,26 +9,29 @@
     <!--List Electronics Categories-->
     
     <!--First Row-->
-    <div class="row categoryRow">
+    <div class="row">
         <app-category-item
-            *ngFor = "let image of imageFirstRow"
-            [image] = image>
+            class="appFlex component col-md"
+            *ngFor = "let product of productFirstRow"
+            [product] = product>
         </app-category-item>
     </div>
     
     <!--Second Row-->
-    <div class="row categoryRow">
+    <div class="row">
         <app-category-item
-            *ngFor = "let image of imageSecondRow"
-            [image] = image>
+            class="appFlex component col-md"
+            *ngFor = "let product of productSecondRow"
+            [product] = product>
         </app-category-item>
     </div>
     
     <!--Third Row-->
-    <div class="row categoryRow">
+    <div class="row">
         <app-category-item
-            *ngFor = "let image of imageThirdRow"
-            [image] = image>
+            class="appFlex component col-md"
+            *ngFor = "let product of productThirdRow"
+            [product] = product>
         </app-category-item>
     </div>
     

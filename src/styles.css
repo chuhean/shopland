@@ -1,12 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 .body {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
-.homeContainer {
+.container {
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
+.appFlex {
+  flex: 1;
+}
 
+.component {
+  margin: 12px;
+  padding: 0;
+}
 

@@ -1,0 +1,40 @@
+.productImageColumn{
+    margin: 0 auto;
+}
+
+.productImage {
+    width: 100%;
+    height: auto;
+}
+
+.productDetailColumn{
+    margin-bottom: 16px;
+}
+
+.productDetail {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.productDetail__detail{
+    font-size: 0.9rem;
+}
+
+.productDetail__menu{
+    width: 60px;
+}
+
+.productDetail__button{
+    text-align: center;
+}
+
+.productDescriptionColumn{
+    width: 100%;
+    margin: 15px;
+}
+
+.productDescriptionColumn__description{
+    margin: 10px auto;
+    text-align: left;
+}

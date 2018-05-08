@@ -1,0 +1,23 @@
+<div class="container">
+    
+    <h2 class="card-title font-bold pb-2 h2-responsive component"><strong>Search Results for "{{ product.title }}"</strong></h2>
+    
+    <div class="row">
+        
+        <ng-container *ngFor="let product of product; let i = index">
+            
+            <!--Bootstrap Column Breakpoint-->
+            <div class="w-100" *ngIf="i !== 0 && i % 4 === 0"></div>
+            
+            <!--Search item components of each products-->
+            <app-search-item
+                class="appFlex component col-md-3"
+                [product] = product>
+                
+            </app-search-item>
+
+        </ng-container>
+        
+    </div>
+    
+</div>

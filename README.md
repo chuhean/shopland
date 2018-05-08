@@ -1,14 +1,22 @@
 1. Design website
 2. Set up component views
     - home, category, search, product, buy page, store page
-3. Set up RESTful routes
+3. Set up REST API
 4. Set up models and authetication
 5. Optimization, cleaning up, write comment
-6. Testing: functionality, DB, security, performance (front & back, DB), cross-browser 
+6. Testing: functionality, DB, REST API, security, performance (front & back, DB), cross-browser, audit
 7. Documentation & maintenance 
 
 *git add, commit and push to github
 *HTML, CSS, JS, NodeJS, MongoDB, ExpressJS, Mongoose, Angular, bem, gulp 
+
+CSS Architecture: Positioning, properties & sizing via BEM
+- Positioning: Set via parent block (thus block and element themselves can't have margin or positioning)
+- Properties: Set in block or element. Overriding/adding properties is set via parent block
+- Sizing: Set in block or element. Overriding/adding sizing is set via parent block.
+
+To build these up initially into block & element for a project, use build factoring. 
+
 
 # Shopland
 

@@ -5,7 +5,6 @@ import { HomeItemComponent } from './../home-item/home-item.component';
 import { CarouselComponent } from './../carousel/carousel.component';
 import { HomeRoutingModule } from './home-routing.module';
 
-
 @NgModule({
   imports: [
     CommonModule,

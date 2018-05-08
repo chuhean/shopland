@@ -1,14 +1,15 @@
 <app-carousel></app-carousel>
 
 <!--Bootstrap Container-->
-<div class="container homeContainer">
+<div class="container">
     
     <p class="h2-responsive">Popular items with free shipping</p>
     <hr>
     <div class="row">
         <app-home-item 
-            *ngFor = "let image of imageFirstRow"
-            [image] = image>
+            class="appFlex"
+            *ngFor = "let product of productFirstRow"
+            [product] = product>
         </app-home-item>
     </div>
     
@@ -18,8 +19,9 @@
     <hr>
     <div class="row">
         <app-home-item 
-            *ngFor = "let image of imageSecondRow"
-            [image] = image>
+            class="appFlex"
+            *ngFor = "let product of productSecondRow"
+            [product] = product>
         </app-home-item>
     </div>
     
@@ -29,8 +31,9 @@
     <hr>
     <div class="row">
         <app-home-item
-            *ngFor = "let image of imageThirdRow"
-            [image] = image>
+            class="appFlex" 
+            *ngFor = "let product of productThirdRow"
+            [product] = product>
         </app-home-item>
     </div>
     
@@ -40,8 +43,9 @@
     <hr>
     <div class="row">
         <app-home-item 
-            *ngFor = "let image of imageFourthRow"
-            [image] = image>
+            class="appFlex"
+            *ngFor = "let product of productFourthRow"
+            [product] = product>
         </app-home-item>
     </div>
     

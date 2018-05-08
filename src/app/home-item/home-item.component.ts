@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Image } from './../image.model';
+import { Product } from './../product.model';
 
 @Component({
   selector: 'app-home-item',
@@ -7,7 +7,7 @@ import { Image } from './../image.model';
   styleUrls: ['./home-item.component.css']
 })
 export class HomeItemComponent implements OnInit {
-  @Input() image: Image;
+  @Input() product: Product;
 
   constructor() { 
   }
