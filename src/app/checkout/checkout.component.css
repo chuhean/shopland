@@ -1,0 +1,19 @@
+.checkout__element{
+    margin: auto;
+}
+
+.checkoutPayment{
+    width: 80%;
+    height: auto;
+    text-align: left;
+}
+
+.checkoutAddress{
+    width: 80%;
+    height: auto;
+    text-align: left;
+}
+
+.checkoutButton{
+    width: 80%;
+}

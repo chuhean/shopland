@@ -7,6 +7,7 @@ import { CategoryModule } from './category/category.module';
 import { SearchModule } from './search/search.module';
 import { ProductModule } from './product/product.module';
 import { CheckoutModule } from './checkout/checkout.module';
+import { StoreModule } from './store/store.module';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -25,7 +26,8 @@ import { FooterComponent } from './footer/footer.component';
     CategoryModule,
     SearchModule,
     ProductModule,
-    CheckoutModule
+    CheckoutModule,
+    StoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
