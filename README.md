@@ -2,7 +2,7 @@
 2. Set up component views
     - home, category, search, product, buy page, store page
 3. Set up REST API
-4. Set up models and authetication
+4. Set up models, set up login and authetication
 5. Optimization, cleaning up, write comment
 6. Testing: functionality, DB, REST API, security, performance (front & back, DB), cross-browser, audit
 7. Documentation & maintenance 
