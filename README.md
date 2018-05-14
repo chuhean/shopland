@@ -1,4 +1,5 @@
 1. Design website
+2. Plan CSS elements and structures
 2. Set up component views
     - home, category, search, product, buy page, store page
 3. Set up REST API

@@ -6,14 +6,16 @@ export class Product {
     price: number;
     rating: number;
     merchant: string;
-
-    constructor(title: string, image: string, link?: string, description?: string, price?: number, rating?: number, merchant?: string) {
-        this.title = title;
-        this.image = image;
-        this.link = link;
-        this.description = description;
-        this.price = price;
-        this.rating = rating;
-        this.merchant = merchant;
+    id: string;
+// title: string, image?: string, link?: string, description?: string, price?: number, rating?: number, merchant?: string, id?: string
+    constructor(obj?: any) {
+        this.title = obj.title;
+        this.image = obj.image;
+        this.link = obj.link;
+        this.description = obj.description;
+        this.price = obj.price;
+        this.rating = obj.rating;
+        this.merchant = obj.merchant;
+        this.id = obj.id;
     }
 }
