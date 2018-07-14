@@ -1,12 +1,12 @@
 1. Design website
 2. Plan CSS elements and structures
-2. Set up component views
+3. Set up component views
     - home, category, search, product, buy page, store page
-3. Set up REST API
-4. Set up models, set up login and authetication
-5. Optimization, cleaning up, write comment
-6. Testing: functionality, DB, REST API, security, performance (front & back, DB), cross-browser, audit
-7. Documentation & maintenance 
+4. Set up REST API
+5. Set up models, set up login and authetication
+6. Optimization, cleaning up, write comment
+7. Testing: functionality, DB, REST API, security, performance (front & back, DB), cross-browser, audit
+8. Documentation, maintenance  updating code
 
 *git add, commit and push to github
 *HTML, CSS, JS, NodeJS, MongoDB, ExpressJS, Mongoose, Angular, bem, gulp 

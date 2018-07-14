@@ -12,34 +12,35 @@ const   express         = require("express"),
 //======================================================
 //IMPORT ROUTES
 //======================================================
-const   api = require("./server/routes/api");
+const   apiProducts = require("./server/routes/apiProducts"),
+        apiUser = require("./server/routes/apiUser"),
+        apiMerchant = require("./server/routes/apiMerchant");
 
 //======================================================
 //CONNECT APPJS TO MONGODB DATABASE
 //======================================================
-
+mongoose.connect("mongodb://localhost/shopland");
 
 //======================================================
 //UTILIZE IMPORTED FUNCTIONS
 //======================================================
 app.use(helmet());
 app.use(compression());
+app.use(express.static(path.join(__dirname, "dist")));
 app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({extended:true}));
 
 //======================================================
 //PASSPORTJS CONFIGURATION
 //======================================================
-// app.use(require("express-session")({
-//     secret:"This is the website of the ecommerce platform Shopland.",
-//     resave: false,
-//     saveUninitialized: false
-// }));
+
 
 //======================================================
 //UTILIZING ROUTES
 //======================================================
-app.use("/api", api);
+app.use("/api/products", apiProducts);
+app.use("/api/user", apiUser);
+app.use("/api/merchant", apiMerchant);
 app.use("*", (req, res) => {
     res.sendFile(path.join(__dirname, "dist/index.html"));
 });

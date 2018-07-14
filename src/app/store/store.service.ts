@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Response } from '@angular/http';
-import { Product } from './../product.model';
+import { Merchant } from './../merchant.model';
 import 'rxjs/add/operator/map';
 
 @Injectable()
 export class SearchService {
     
-    private searchUrl = "/api/products/search";
+    private searchUrl = "/api/merchant";
     constructor(private http: HttpClient){}
     
     // Perform Search Query via HTTP
