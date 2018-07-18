@@ -1,3 +1,5 @@
+ShopLand - A e-commerce platform for users to buy products and merchants to sell, just like Amazon.
+
 1. Design website
 2. Plan CSS elements and structures
 3. Set up component views
