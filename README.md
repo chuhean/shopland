@@ -1,25 +1,6 @@
 ShopLand - A e-commerce platform for users to buy products and merchants to sell, just like Amazon.
 
-1. Design website
-2. Plan CSS elements and structures
-3. Set up component views
-    - home, category, search, product, buy page, store page
-4. Set up REST API
-5. Set up models, set up login and authetication
-6. Optimization, cleaning up, write comment
-7. Testing: functionality, DB, REST API, security, performance (front & back, DB), cross-browser, audit
-8. Documentation, maintenance  updating code
-
-*git add, commit and push to github
-*HTML, CSS, JS, NodeJS, MongoDB, ExpressJS, Mongoose, Angular, bem, gulp 
-
-CSS Architecture: Positioning, properties & sizing via BEM
-- Positioning: Set via parent block (thus block and element themselves can't have margin or positioning)
-- Properties: Set in block or element. Overriding/adding properties is set via parent block
-- Sizing: Set in block or element. Overriding/adding sizing is set via parent block.
-
-To build these up initially into block & element for a project, use build factoring. 
-
+Stacks: HTML, CSS, JS, NodeJS, MongoDB, ExpressJS, Mongoose, Angular, BEM CSS 
 
 # Shopland
 
